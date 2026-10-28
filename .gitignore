@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Testing and tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated data and local databases
+chroma_db/
+*.sqlite3
+
+# Editor and OS files
+.DS_Store
+.vscode/
